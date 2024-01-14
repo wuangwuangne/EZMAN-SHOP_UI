@@ -10,29 +10,27 @@ const cx = classNames.bind(styles);
 function Header() {
     return (
         <div className={cx('wrapper')}>
-            <Link to={'/'}>
+            <a href={'/'}>
                 <img className={cx('logo')} src={logo} alt="1232" />{' '}
-            </Link>
+            </a>
             <div>
                 <div className={cx('menu')}>
                     <ul>
                         <li>
-                            <a href="#SLIDER">home</a>
+                            <a href="/">home</a>
                         </li>
                         <li>
-                            <a href="#BESTSELLER">best seller</a>
+                            <a href="/shoes">Giày</a>
                         </li>
                         <li>
-                            <a href="#COLLECTION"> collection</a>
+                            <a href="/foots"> Dép</a>
                         </li>
                         <li>
-                            <a href="#SALE"> sale</a>
+                            <a href="/others"> phụ kiện</a>
                         </li>
+
                         <li>
-                            <a href="https://www.universalstandard.com/pages/size-guides" target="_blank">
-                                {' '}
-                                size chart
-                            </a>
+                            <Link to="/size">size chart</Link>
                         </li>
                         <li>
                             <a href="#FOOTER">about us</a>
