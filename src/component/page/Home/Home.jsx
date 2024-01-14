@@ -17,13 +17,13 @@ function Home() {
                         <h3>Danh mục</h3>
                     </div>
                     <div className={cx('banner')}>
-                        <Link to={'/main'}>
+                        <Link to={'/shoes'}>
                             <img src="/img/banner1.jpg" alt=""></img>
                         </Link>
-                        <a href="#">
+                        <a href="/foots">
                             <img src="/img/banner2.jpg" alt=""></img>
                         </a>
-                        <a href="#">
+                        <a href="/others">
                             <img src="/img/banner3.png" alt=""></img>
                         </a>
                     </div>
