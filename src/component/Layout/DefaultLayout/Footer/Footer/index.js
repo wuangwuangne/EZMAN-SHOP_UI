@@ -1,10 +1,12 @@
 import classNames from 'classnames/bind';
-import styles from './Footer/Footer.module.scss';
+import styles from './Footer.module.scss';
 import { RiTiktokLine } from 'react-icons/ri';
 import { SlSocialFacebook } from 'react-icons/sl';
 import { MdOutlineEmail } from 'react-icons/md';
 import { IoCall } from 'react-icons/io5';
 import { FaLocationDot } from 'react-icons/fa6';
+import { FaInstagram } from 'react-icons/fa';
+import { SiShopee } from 'react-icons/si';
 
 const cx = classNames.bind(styles);
 
@@ -26,7 +28,7 @@ function Footer() {
                             Hotline: 033 456 5538
                         </p>
                         <a
-                            href="https://www.google.com/maps/search/S%E1%BB%91+11+nguy%E1%BB%85n+tr%C3%A3i+(+%C4%90%E1%BA%A7u+C%E1%BA%A7u+Hi%E1%BA%BFu+1+),+Th%C3%A1i+H%C3%B5a,+Vietnam/@19.3226949,105.4255056,18z/data=!3m1!4b1?hl=vi-VN&entry=ttu"
+                            href="https://www.google.com/maps/place/11+Nguy%E1%BB%85n+Tr%C3%A3i,+H%C3%B2a+Hi%E1%BA%BFu,+TX.+Th%C3%A1i+H%C3%B2a,+Ngh%E1%BB%87+An,+Vi%E1%BB%87t+Nam/@19.3224747,105.4260162,18z/data=!3m1!4b1!4m10!1m2!2m1!1zU-G7kSAxMSBuZ3V54buFbiB0csOjaSAoIMSQ4bqndSBD4bqndSBIaeG6v3UgMSApLCBUaMOhaSBIw7VhLCBWaWV0bmFt!3m6!1s0x313715731e7004bb:0x1acef8ee0f8889cc!8m2!3d19.3224747!4d105.4284517!15sCkVT4buRIDExIG5ndXnhu4VuIHRyw6NpICggxJDhuqd1IEPhuqd1IEhp4bq_dSAxICksIFRow6FpIEjDtWEsIFZpZXRuYW2SARBnZW9jb2RlZF9hZGRyZXNz4AEA!16s%2Fg%2F11ghtcc39b?hl=vi-VN&entry=ttu"
                             target="blank"
                         >
                             <FaLocationDot />
@@ -53,6 +55,13 @@ function Footer() {
                         </a>
                         <a href="https://www.facebook.com/EZMANSNEAKER" target="blank">
                             <SlSocialFacebook />
+                        </a>
+                        <a href="https://www.instagram.com/" target="blank">
+                            {' '}
+                            <FaInstagram />
+                        </a>
+                        <a href="https://shopee.vn/" target="blank">
+                            <SiShopee />
                         </a>
                     </div>
                 </div>

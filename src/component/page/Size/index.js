@@ -6,23 +6,25 @@ const cx = classNames.bind(styles);
 function Size() {
     return (
         <div className={cx('size')}>
-            <div className="content">
+            <div className={cx('content')}>
                 <h1>[BẬT MÍ] Cách chọn và đo size chuẩn</h1>
-                <blockquote>
-                    Bạn đang muốn đặt một đôi giày ở Trung Quốc nhưng không biết chọn size như thế nào cho vừa? Thực tế
-                    size giày Trung Quốc khác so với Việt Nam tuy nhiên không quá nhiều. Trong bài viết này chúng ta sẽ
-                    cùng tìm hiểu về cách chọn size giày trung quốc chuẩn nhất nhé!
+                <blockquote className={cx('blockquote')}>
+                    <em>
+                        Bạn đang muốn đặt một đôi giày ở Trung Quốc nhưng không biết chọn size như thế nào cho vừa? Thực
+                        tế size giày Trung Quốc khác so với Việt Nam tuy nhiên không quá nhiều. Trong bài viết này chúng
+                        ta sẽ cùng tìm hiểu về cách chọn size giày trung quốc chuẩn nhất nhé!
+                    </em>
                 </blockquote>
                 <strong>Bảng quy đổi size giày Trung Quốc theo từng loại</strong>
-                <p>Hãy so sánh kích thước chân của bạn với bảng size giày dưới đây:</p>
-                <p>
+                <p className={cx('center')}>Hãy so sánh kích thước chân của bạn với bảng size giày dưới đây:</p>
+                <p className={cx('center')}>
                     <img src="/img/size-giay-nu.jpg" />{' '}
                 </p>
-                <p>Bảng size giày cho nữ</p>
-                <p>
+                <p className={cx('center')}>Bảng size giày cho nữ</p>
+                <p className={cx('center')}>
                     <img src="/img/bang-quy-doi-size-giay-nam.jpg" />{' '}
                 </p>
-                <p>Bảng size giày cho nam</p>
+                <p className={cx('center')}>Bảng size giày cho nam</p>
                 <strong>2. Cách chọn và đo size giày phù hợp siêu đơn giản</strong>
                 <p>Chỉ cần 1 tờ giấy trắng, 1 cây bút và 1 thước dây, sau đó thực hiện các bước sau:</p>
                 <p>

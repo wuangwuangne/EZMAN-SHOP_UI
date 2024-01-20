@@ -2,7 +2,7 @@
 // import classNames from "classnames";
 import Header from './Header';
 // const cx= classNames.bind(styles)
-import Footer from './Footer';
+import Footer from './Footer/Footer';
 
 function DefaultLayout({ children }) {
     return (

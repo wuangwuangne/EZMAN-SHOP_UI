@@ -37,20 +37,22 @@ function Header() {
                         </li>
                     </ul>
                 </div>
-                <div className={cx('header-search')}>
-                    <h4>
-                        <IoIosSearch size={''} color="" />{' '}
-                    </h4>
-                    <input placeholder="Nhập sản phẩm muốn tìm kiếm "></input>
-                </div>
             </div>
 
-            <div className={cx('header-item')}>
-                <div className={cx('header-login')}>
-                    <a href="">
-                        <FaUser style={{ marginRight: 10 }} /> Login
-                    </a>
-                    <a href="">Signup</a>
+            <div>
+                <div className={cx('header-search')}>
+                    <div className={cx('header-login')}>
+                        <a href="/users">
+                            <FaUser />
+                        </a>
+                    </div>
+
+                    <p>
+                        <h4>
+                            <IoIosSearch style={{ marginRight: 10 }} />
+                        </h4>
+                        <input placeholder="Nhập sản phẩm muốn tìm kiếm "></input>
+                    </p>
                 </div>
             </div>
         </div>
