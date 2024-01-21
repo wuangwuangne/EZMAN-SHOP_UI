@@ -18,14 +18,17 @@ function Home() {
                         <h3>Danh mục</h3>
                     </div>
                     <div className={cx('banner')}>
-                        <Link to={'/shoes'}>
+                        <a className={cx('block')} href={'/shoes'}>
                             <img src="/img/banner1.jpg" alt=""></img>
-                        </Link>
-                        <a href="/foots">
-                            <img src="/img/banner2.jpg" alt=""></img>
+                            <button className={cx('button-hover')}>Giày</button>
                         </a>
-                        <a href="/others">
+                        <a className={cx('block')} href="/foots">
+                            <img src="/img/banner2.jpg" alt=""></img>
+                            <button className={cx('button-hover')}>Dép</button>
+                        </a>
+                        <a className={cx('block')} href="/others">
                             <img src="/img/banner3.png" alt=""></img>
+                            <button className={cx('button-hover')}>Phụ kiện</button>
                         </a>
                     </div>
                 </div>

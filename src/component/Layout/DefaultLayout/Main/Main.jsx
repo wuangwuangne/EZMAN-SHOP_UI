@@ -5,8 +5,9 @@ const cx = classNames.bind(styles);
 
 const courses = [
     {
-        imgage: 'img/adidas1.jpg',
-        h2: 'Hello   ',
+        image: 'img/adidas.jpg',
+        h2: 'Hellod ',
+        p: 'I love you',
     },
 ];
 
@@ -16,44 +17,45 @@ const FormInput = () => {
 const Course = (props) => {
     return (
         <div>
-            <img src={props.imgage} />
             <h2>{props.h2}</h2>
-            <p>{props.p}</p>
+            <img src={props.image} alt="" />
         </div>
     );
 };
 
 function Main() {
     return (
-        <div>
+        <div className={cx('wrap')}>
             <div className={cx('sidebar')}>
                 <h3>Thương hiệu</h3>
+                <FormInput />
+                <FormInput />
+                <FormInput />
+
                 <div>
                     <h3>Khoảng giá</h3>
                 </div>
                 <div>
                     <h3>Kích cỡ ( nike, adidas, jordan, vans,...) </h3>
                     <div className={cx('input')}>
-                        <div>
-                            37
-                            <FormInput />
-                            38
-                            <FormInput />
-                            39
-                            <FormInput />
-                        </div>
-                        <div>
-                            40
-                            <FormInput />
-                            41
-                            <FormInput />
-                            42
-                            <FormInput />
-                        </div>
+                        <div></div>
+                        <div></div>
                     </div>
                 </div>
             </div>
             <div className={cx('main')}>
+                <div className={cx('tool')}>
+                    <label>Sắp xếp</label>
+                    <select className={cx('option')} id="">
+                        <option value="1">Mặc định</option>
+                        <option value="1">Giá tăng dần</option>
+                        <option value="1">Giá giảm dần</option>
+                        <option value="1">Tên: A-Z</option>
+                        <option value="1">Tên: Z-A</option>
+                        <option value="1">Cũ nhất</option>
+                        <option value="1">Mới nhất</option>
+                    </select>
+                </div>
                 {courses.map((course) => (
                     <Course h2={course.h2} />
                 ))}

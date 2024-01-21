@@ -1,6 +1,16 @@
 .size {
+    padding: 0 200px;
+    h1,
+    p,
+    ul,
+    strong {
+        margin-bottom: 8px;
+    }
+    strong {
+        font-size: 22px;
+    }
     .content {
-        padding: 20px 120px;
+        padding: 50px 120px;
     }
     .blockquote {
         text-align: center;
@@ -11,8 +21,14 @@
     }
     .center {
         text-align: center;
+        font-weight: bold;
+        font-size: 18px;
     }
     ul {
         margin-left: 60px;
+    }
+    .bold {
+        font-size: 18px;
+        font-weight: bold;
     }
 }

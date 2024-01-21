@@ -15,7 +15,7 @@ function Size() {
                         ta sẽ cùng tìm hiểu về cách chọn size giày trung quốc chuẩn nhất nhé!
                     </em>
                 </blockquote>
-                <strong>Bảng quy đổi size giày Trung Quốc theo từng loại</strong>
+                <strong>1.Bảng quy đổi size giày Trung Quốc theo từng loại</strong>
                 <p className={cx('center')}>Hãy so sánh kích thước chân của bạn với bảng size giày dưới đây:</p>
                 <p className={cx('center')}>
                     <img src="/img/size-giay-nu.jpg" />{' '}
@@ -28,9 +28,7 @@ function Size() {
                 <strong>2. Cách chọn và đo size giày phù hợp siêu đơn giản</strong>
                 <p>Chỉ cần 1 tờ giấy trắng, 1 cây bút và 1 thước dây, sau đó thực hiện các bước sau:</p>
                 <p>
-                    <em>
-                        <strong>Bước 1: Vẽ bàn chân</strong>
-                    </em>
+                    <em className={cx('bold')}>Bước 1: Vẽ bàn chân</em>
                 </p>
                 <ul>
                     <li>Đặt bàn chân của bạn lên tờ giấy trắng.</li>
@@ -38,23 +36,16 @@ function Size() {
                 </ul>
                 <p>Lưu ý: vẽ thẳng bút và ôm sát theo khuôn chân. Không xê dịch bàn chân khi vẽ.</p>
                 <p>
-                    <em>
-                        <strong>Bước 2: Chọn điểm đo</strong>
-                    </em>
+                    <em className={cx('bold')}>Bước 2: Chọn điểm đo</em>
                 </p>
                 <p>Chọn điểm cao nhất của các ngón chân sau và điểm thấp nhất của gót chân.</p>
                 <p>Kẻ các vạch như hình trên.</p>{' '}
                 <p>
-                    <em>
-                        <strong>Bước 3: Lấy số đo</strong>
-                    </em>
+                    <em className={cx('bold')}>Bước 3: Lấy số đo</em>
                 </p>
                 <p>Dùng thước dây hoặc thước kẻ để đo đường vẽ ở bước 2.</p>
                 <p>
-                    <em>
-                        <strong>Bước 4: So sánh bảng size giày</strong>
-                    </em>
-                    <p>Dùng thước dây hoặc thước kẻ để đo đường vẽ ở bước 2.</p>
+                    <em className={cx('bold')}>Bước 4: So sánh bảng size giày</em>
                 </p>
                 <p>So sánh bảng kích thước để có size giày phù hợp.</p>
             </div>
