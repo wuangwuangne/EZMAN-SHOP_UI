@@ -4,7 +4,7 @@ import DefaultLayout from '~/component/Layout/DefaultLayout';
 
 function App() {
     return (
-        <Router basename="/EZMAN-SHOP_UI">
+        <Router>
             <div className="App">
                 <Routes>
                     {publicRoutes.map((route, index) => {
