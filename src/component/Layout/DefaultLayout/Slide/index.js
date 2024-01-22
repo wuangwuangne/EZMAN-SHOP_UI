@@ -5,9 +5,9 @@ const cx = classNames.bind(styles);
 
 function Slider() {
     const slides = [
-        { id: 1, src: '/img/slide1.jpg' },
-        { id: 2, src: '/img/slide2.jpg' },
-        { id: 3, src: '/img/slide3.jpg' },
+        { id: 1, src: '/img/Slide/slide1.jpg' },
+        { id: 2, src: '/img/Slide/slide2.jpg' },
+        { id: 3, src: '/img/Slide/slide3.jpg' },
     ];
     const [currentIndex, setCurrentIndex] = useState(0);
 

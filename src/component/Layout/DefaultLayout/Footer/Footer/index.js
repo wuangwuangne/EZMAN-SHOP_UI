@@ -15,9 +15,7 @@ function Footer() {
         <div className={cx('wrapper')} id="FOOTER">
             <div className={cx('middle')}>
                 <div>
-                    <h4 h4 className={cx('private')}>
-                        LIÊN HỆ
-                    </h4>
+                    <h4 className={cx('private')}>LIÊN HỆ</h4>
                     <div className={cx('contact')}>
                         <p>
                             <MdOutlineEmail />
@@ -38,9 +36,7 @@ function Footer() {
                 </div>
 
                 <div>
-                    <h4 h4 className={cx('private')}>
-                        FANPAGE
-                    </h4>
+                    <h4 className={cx('private')}>FANPAGE</h4>
                     <div className={cx('product')}>
                         <a href="https://www.facebook.com/EZMANSNEAKER" target="blank">
                             <img className={cx('img-footer')} src="img/Footer.png" alt=""></img>

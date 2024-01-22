@@ -17,23 +17,23 @@ function Header() {
                 <div className={cx('menu')}>
                     <ul>
                         <li>
-                            <a href="/">home</a>
+                            <Link to="/">home</Link>
                         </li>
                         <li>
-                            <a href="/shoes">Giày</a>
+                            <Link to="/shoes">Giày</Link>
                         </li>
                         <li>
-                            <a href="/foots"> Dép</a>
+                            <Link to="/foots"> Dép</Link>
                         </li>
                         <li>
-                            <a href="/others"> phụ kiện</a>
+                            <Link to="/others"> phụ kiện</Link>
                         </li>
 
                         <li>
                             <Link to="/size">size chart</Link>
                         </li>
                         <li>
-                            <a href="#FOOTER">about us</a>
+                            <Link to="#FOOTER">about us</Link>
                         </li>
                     </ul>
                 </div>
@@ -42,17 +42,18 @@ function Header() {
             <div>
                 <div className={cx('header-search')}>
                     <div className={cx('header-login')}>
-                        <a href="/users">
+                        <Link to="/users">
                             <FaUser />
-                        </a>
+                        </Link>
                     </div>
 
-                    <p>
+                    <div className={cx('p')}>
                         <h4>
                             <IoIosSearch style={{ marginRight: 10 }} />
                         </h4>
                         <input placeholder="Nhập sản phẩm muốn tìm kiếm "></input>
-                    </p>
+                        <div />
+                    </div>
                 </div>
             </div>
         </div>
