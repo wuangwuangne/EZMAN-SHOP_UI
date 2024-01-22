@@ -17,7 +17,7 @@ function Header() {
                 <div className={cx('menu')}>
                     <ul>
                         <li>
-                            <Link to="/">home</Link>
+                            <a href="/">home</a>
                         </li>
                         <li>
                             <Link to="/shoes">Giày</Link>
@@ -33,7 +33,7 @@ function Header() {
                             <Link to="/size">size chart</Link>
                         </li>
                         <li>
-                            <Link to="#FOOTER">about us</Link>
+                            <a href="#FOOTER">about us</a>
                         </li>
                     </ul>
                 </div>
