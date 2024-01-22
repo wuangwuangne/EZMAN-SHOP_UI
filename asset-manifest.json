@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/EZMAN-SHOP_UI/static/css/main.f071a4da.css",
+    "main.js": "/EZMAN-SHOP_UI/static/js/main.52fc8c2f.js",
+    "static/js/787.416f38b3.chunk.js": "/EZMAN-SHOP_UI/static/js/787.416f38b3.chunk.js",
+    "static/media/LOGO.jpg": "/EZMAN-SHOP_UI/static/media/LOGO.f2b2b17b89708a102321.jpg",
+    "index.html": "/EZMAN-SHOP_UI/index.html",
+    "main.f071a4da.css.map": "/EZMAN-SHOP_UI/static/css/main.f071a4da.css.map",
+    "main.52fc8c2f.js.map": "/EZMAN-SHOP_UI/static/js/main.52fc8c2f.js.map",
+    "787.416f38b3.chunk.js.map": "/EZMAN-SHOP_UI/static/js/787.416f38b3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f071a4da.css",
+    "static/js/main.52fc8c2f.js"
+  ]
+}
