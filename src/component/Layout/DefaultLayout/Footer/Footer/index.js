@@ -64,8 +64,8 @@ function Footer() {
             </div>
             <div className={cx('bottom')}>
                 © Bản quyền thuộc về EZMANSNEAKER | Cung cấp bởi{' '}
-                <a href="https://www.facebook.com/profile.php?id=100020162593131" target="blank">
-                    Wuang Wuang ĐZ
+                <a href="https://www.facebook.com/HoNgocQuocKhanh" target="blank">
+                    Hồ Khánh ĐZ
                 </a>
             </div>
         </div>

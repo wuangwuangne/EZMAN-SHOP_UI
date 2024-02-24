@@ -95,7 +95,7 @@ function Wrap({ data }) {
                     <label>Sắp xếp</label>
                     <CustomSelect />
                 </div>
-                <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+                <div style={{ display: 'flex', nflexWrap: 'wrap' }}>
                     {data.map((item) => (
                         <ListItem data={item} key={item.id} />
                     ))}

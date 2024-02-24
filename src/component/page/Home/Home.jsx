@@ -82,11 +82,21 @@ function Home() {
                     </div>
                     <div className={cx('local')}>
                         <div className={cx('img-local')}>
-                            <img src="/img/LOGO-BRAND/nike.jpg" alt=""></img>
-                            <img src="/img/LOGO-BRAND/vans.png" alt=""></img>
-                            <img src="/img/LOGO-BRAND/adidas.jpg" alt=""></img>
-                            <img src="/img/LOGO-BRAND/jodan.png" alt=""></img>
-                            <img src="/img/LOGO-BRAND/newbalen.png" alt=""></img>
+                            <div className={cx('tag')}>
+                                <img src="/img/LOGO-BRAND/nike.jpg" alt=""></img>
+                            </div>
+                            <div className={cx('tag')}>
+                                <img src="/img/LOGO-BRAND/vans.png" alt=""></img>
+                            </div>
+                            <div className={cx('tag')}>
+                                <img src="/img/LOGO-BRAND/adidas.jpg" alt=""></img>
+                            </div>
+                            <div className={cx('tag')}>
+                                <img src="/img/LOGO-BRAND/jodan.png" alt=""></img>
+                            </div>
+                            <div className={cx('tag')}>
+                                <img src="/img/LOGO-BRAND/newbalen.png" alt=""></img>
+                            </div>
                         </div>
                     </div>
                 </div>
