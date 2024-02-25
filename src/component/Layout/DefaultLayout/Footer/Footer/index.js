@@ -7,6 +7,7 @@ import { IoCall } from 'react-icons/io5';
 import { FaLocationDot } from 'react-icons/fa6';
 import { FaInstagram } from 'react-icons/fa';
 import { SiShopee } from 'react-icons/si';
+import { Link } from 'react-router-dom';
 
 const cx = classNames.bind(styles);
 
@@ -35,7 +36,7 @@ function Footer() {
                     </div>
                 </div>
 
-                <div>
+                <div className={cx('contact')}>
                     <h4 className={cx('private')}>FANPAGE</h4>
                     <div className={cx('product')}>
                         <a href="https://www.facebook.com/EZMANSNEAKER" target="blank">
@@ -46,19 +47,18 @@ function Footer() {
                     <h4>FOLLOW US</h4>
 
                     <div className={cx('logo-contact')}>
-                        <a href="https://www.tiktok.com/@ezman_sneaker" target="blank">
+                        <Link to="https://www.tiktok.com/@ezman_sneaker" target="blank">
                             <RiTiktokLine />
-                        </a>
-                        <a href="https://www.facebook.com/EZMANSNEAKER" target="blank">
+                        </Link>
+                        <Link to="https://www.facebook.com/EZMANSNEAKER" target="blank">
                             <SlSocialFacebook />
-                        </a>
-                        <a href="https://www.instagram.com/" target="blank">
-                            {' '}
+                        </Link>
+                        <Link to="https://www.instagram.com/" target="blank">
                             <FaInstagram />
-                        </a>
-                        <a href="https://shopee.vn/" target="blank">
+                        </Link>
+                        <Link to="https://shopee.vn/" target="blank">
                             <SiShopee />
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

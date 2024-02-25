@@ -81,7 +81,7 @@ function Home() {
                         <h3>Thương Hiệu</h3>
                     </div>
                     <div className={cx('local')}>
-                        <div className={cx('img-local')}>
+                        <div className={cx('img-local', 'carousel')}>
                             <div className={cx('tag')}>
                                 <img src="/img/LOGO-BRAND/nike.jpg" alt=""></img>
                             </div>

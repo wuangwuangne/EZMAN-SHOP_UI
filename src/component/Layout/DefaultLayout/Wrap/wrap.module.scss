@@ -1,6 +1,7 @@
 .wrap {
     display: flex;
     padding: 70px 110px;
+
     .slidebar {
         width: 25%;
         border-right: 1px solid #ededed;
@@ -8,6 +9,7 @@
             text-transform: uppercase;
             margin-top: 20px;
         }
+        // position: fixed;
     }
     .main {
         width: 75%;

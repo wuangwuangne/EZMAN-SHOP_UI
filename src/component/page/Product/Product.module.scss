@@ -1,0 +1,60 @@
+.main {
+    display: flex;
+    padding: 40px;
+    .img-product {
+        width: 50%;
+        height: auto;
+        margin-right: 10px;
+        line-height: 25px;
+        img {
+            width: 80%;
+            height: 80%;
+        }
+    }
+    .info-product {
+        width: 50%;
+        h2 {
+            font-size: 40px;
+            color: red;
+        }
+        .info-1 {
+            margin: 20px 0;
+        }
+        .size {
+            display: flex;
+            align-items: center;
+            border-top: 1px solid #eee;
+            input {
+                height: 35px;
+                font-size: 15px;
+                border: 1px solid #ccc;
+                line-height: 35px;
+                margin: 0 10px;
+            }
+        }
+    }
+    .button-click {
+        display: flex;
+        cursor: pointer;
+        font-size: 30px;
+
+        align-items: center;
+        p {
+            margin: 20px 50px;
+        }
+    }
+    .status {
+        button {
+            border-radius: 10px;
+            padding: 10px;
+            margin: 5px;
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            &:hover {
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+}

@@ -4,6 +4,7 @@ import logo from '~/assets/LOGO.jpg';
 import { IoIosSearch } from 'react-icons/io';
 import { FaUser } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import { BsFillCartCheckFill } from 'react-icons/bs';
 
 const cx = classNames.bind(styles);
 
@@ -39,7 +40,10 @@ function Header() {
                 </div>
             </div>
 
-            <div>
+            <div className={cx('first-logo')}>
+                <Link to="/cart">
+                    <BsFillCartCheckFill color="white" size={26} />
+                </Link>
                 <div className={cx('header-search')}>
                     <div className={cx('header-login')}>
                         <Link to="/users">
