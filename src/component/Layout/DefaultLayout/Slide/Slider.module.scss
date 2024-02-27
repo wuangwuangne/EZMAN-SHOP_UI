@@ -13,5 +13,7 @@
 }
 .image {
     width: 100%;
-    object-fit: cover;
+    height: 100%;
+    object-fit: contain; /* Hoặc bạn có thể thử với "cover" nếu muốn ảnh phủ đầy container */
+    object-position: center center;
 }
