@@ -32,7 +32,7 @@ function Product() {
 
             <div className={cx('review-product')}>
                 <div className={cx('img-product')}>
-                    <img src="/img/Giày/nike2.jpg" alt="" />
+                    <img src="/img/Giày/adidas1.jpg" alt="" />
                     {/* <div className={cx('img2')}>
                         <img src="/img/Giày/nike2.jpg" alt="" />
                     </div> */}
